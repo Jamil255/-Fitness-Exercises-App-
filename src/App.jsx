@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="*" element={<NotFound />} />
           <Route index excat element={<HomePage />} />
-          <Route path="exercise" element={<ExerciseDetail />} />
+          <Route path="exercise/:id" element={<ExerciseDetail />} />
           <Route />
         </Routes>
         <Footer />
